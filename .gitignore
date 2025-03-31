@@ -1,32 +1,64 @@
-# Prerequisites
-*.d
+# === General ===
+*.log
+*.jou
+*.tmp
+*.backup
+*.swp
+*.swo
+*.bak
+*.orig
 
-# Compiled Object files
-*.slo
-*.lo
+# === Vitis HLS ===
+/solution1/
 *.o
-*.obj
+*.xo
+*.xpr
+*.xclbin
+*.rpt
+/.Xil/
+/.vitis/
 
-# Precompiled Headers
-*.gch
-*.pch
+# === Vivado/Vitis Projects ===
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+*.webtalk/
+*.xpr
+*.xdc
+*.bd
+*.dcp
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
 
-# Fortran module files
-*.mod
-*.smod
+# === Docker ===
+*.img
+*.container
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# === Jupyter Notebooks (PYNQ) ===
+.ipynb_checkpoints/
 
-# Executables
+# === Build Files ===
+build/
 *.exe
 *.out
-*.app
+*.elf
+*.bin
+*.bit
+*.hwh
+
+# === OS & Editor Specific ===
+.DS_Store
+*.vscode/
+*.idea/
+*.code-workspace
+*.tags
+
