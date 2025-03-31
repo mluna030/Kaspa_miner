@@ -1,7 +1,11 @@
 #ifndef XOSHIRO256PP_H
 #define XOSHIRO256PP_H
-
+#ifndef __SYNTHESIS__
+#include "sim_ap_int.h"
+#pragma message("using sim_ap_int for simulation")
+#else
 #include <ap_int.h>
+#endif
 
 class Xoshiro256PP {
 public:
@@ -28,5 +32,4 @@ public:
     }
 };
 
-#endif
-
+#endif 
