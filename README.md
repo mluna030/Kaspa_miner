@@ -35,6 +35,8 @@ Kaspa uses a unique proof-of-work algorithm known as **HeavyHash**. This project
 | `Dockerfile` / `run.sh` | Portable build environment setup |
 
 ---
+## Architecture
+![LP11Jy9048Nl-oicd3G63Xez6aGZ90GEuD643EtORRhTRNQc2Z7-TtUxjC1fjj-yz_PrfopefQqDB94RN9MM_8lFT2cKIUj9SLNQ1ZtMm1fpzrFQ0hxGyEKcStNZB5dPoj4G-615MnXIQZZ2QE5OO7jaeNe4o12_B_Spux8A5eGvURY33_G5ILIUs5LOLnQwjh0aRybysfigmbqTuI](https://github.com/user-attachments/assets/0b66e49b-b06a-4f97-bc3d-0befc17f829a)
 
 ## Getting Started
 
